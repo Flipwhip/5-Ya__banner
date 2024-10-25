@@ -181,7 +181,7 @@ body {
   /* 1px */
 }
 
-.row-top .row-item:nth-child(1) imgimg-milk {
+.row-top .row-item:nth-child(1) img, .img-milk {
  width: 2.3rem !important;
 }
 
@@ -370,12 +370,18 @@ body {
   html {
   font-size: 12px;
 }
+  .img-milk {
+ width: 2.3rem !important;
+}
   }
 
 /* Планшеты (вертикальная ориентация) и большие телефоны */
 @media screen and (min-width: 481px) and (max-width: 767px) {
 html {
   font-size: 8px;
+}
+  .img-milk {
+ width: 2.3rem !important;
 }
 
 }
@@ -384,6 +390,9 @@ html {
 @media screen and (max-width: 480px) {
 html {
   font-size: 6px;
+}
+  .img-milk {
+ width: 2.3rem !important;
 }
 }
 
