@@ -132,8 +132,8 @@ function dragStart(e) {
   currentElement.style.transform = "scale(1.5)";
   currentElement.style.transition = "transform 0.2s";
 
-  currentElement.style.left = rect.left / 16 + "rem";
-  currentElement.style.top = rect.top / 16 + "rem";
+  currentElement.style.left = rect.left + "px";
+  currentElement.style.top = rect.top + "px";
 }
 
 function move(e) {
@@ -149,8 +149,8 @@ function move(e) {
       clientY = e.touches[0].clientY;
     }
 
-    currentElement.style.left = (clientX - offsetX) / 16 + "rem";
-    currentElement.style.top = (clientY - offsetY) / 16 + "rem";
+    currentElement.style.left = (clientX - offsetX) + "px";
+    currentElement.style.top = (clientY - offsetY) + "px";
   }
 }
 
