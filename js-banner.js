@@ -213,6 +213,7 @@ function handleSuccessfulDrop(element) {
     element.style.transform = `scale(${scaleFactor}) rotateZ(-2deg)`;
     element.style.bottom = "1.25rem";
     element.style.left = "0.625rem";
+    element.style.width = "2.3rem";
   }
 
   removeEventListeners(element);
