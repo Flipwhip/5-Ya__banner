@@ -195,22 +195,21 @@ function handleSuccessfulDrop(element) {
 
   let elementIndex = droppedElements.indexOf(element);
   
-  // Адаптивное масштабирование
-  let scaleFactor = window.innerWidth < 600 ? 1.2 : 1.5;
-
   if (elementIndex === 1) {
     element.style.zIndex = "2";
-    element.style.transform = `scale(${scaleFactor}) rotateZ(-26deg)`; // применяем адаптивное значение
+    element.style.transform = `scale(${1.5}) rotateZ(-26deg)`; // применяем адаптивное значение
     element.style.bottom = "0.6875rem";
     element.style.left = "0.875rem";
+    element.style.width = "2.9rem";
   } else if (elementIndex === 2) {
     element.style.zIndex = "1";
-    element.style.transform = `scale(${scaleFactor * 0.95}) rotateZ(7deg)`; // масштаб уменьшается немного
+    element.style.transform = `scale(${1.5}) rotateZ(7deg)`; // масштаб уменьшается немного
     element.style.bottom = "1.3125rem";
     element.style.left = "1rem";
+    element.style.width = "2.2rem";
   } else {
     element.style.zIndex = "1";
-    element.style.transform = `scale(${scaleFactor}) rotateZ(-2deg)`;
+    element.style.transform = `scale(${1.5}) rotateZ(-2deg)`;
     element.style.bottom = "1.25rem";
     element.style.left = "0.625rem";
     element.style.width = "2.3rem";
