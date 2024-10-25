@@ -182,7 +182,7 @@ body {
 }
 
 .row-top .row-item:nth-child(1) img, .img-milk {
- width: 2.3rem;
+ width: 2.3rem !important;
 }
 
 .row-top .row-item:nth-child(2) img {
@@ -228,13 +228,13 @@ body {
 .row-bottom .row-item:nth-child(1) img, .img-pineapple {
   right: 0.25rem;
   /* 4px */
-  width: 2.2rem;
+  width: 2.2rem !important;
 }
 
 .row-bottom .row-item:nth-child(2) img, .img-bananas {
   right: -0.4375rem;
   /* -7px */
-  width: 2.9rem;
+  width: 2.9rem !important;
 }
 
 .row-bottom .row-item:nth-child(3) img {
