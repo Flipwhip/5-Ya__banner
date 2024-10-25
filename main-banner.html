@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Интерактивный баннер с функцией drag-and-drop для добавления товаров в корзину">
+  <link rel="preload" href="css-banner.css" as="style">
+  <link rel="stylesheet" href="css-banner.css">
+  <title>Интерактивный баннер Яндекс.Лавка</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="stand" role="region" aria-label="Витрина с товарами">
+      <div class="row row-top">
+        <div class="row-item">
+          <img src="./img/wine.svg" alt="вино" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/milk.svg" alt="молоко" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/jam.svg" alt="варенье" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/cheese.svg" alt="сыр" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+      </div>
+
+      <div class="row row-middle">
+        <div class="row-item">
+          <img src="./img/meat.svg" alt="мясо" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/chicken-leg.svg" alt="куриный окорок" class="draggable-object" draggable="true"
+            loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/chips.svg" alt="чипсы" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+      </div>
+
+      <div class="row row-bottom">
+        <div class="row-item">
+          <img src="./img/pineapple.svg" alt="ананас" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/bananas.svg" alt="бананы" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/apple.svg" alt="яблоко" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+        <div class="row-item">
+          <img src="./img/celery.svg" alt="сельдерей" class="draggable-object" draggable="true" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="shopping-cart" role="region" aria-label="Корзина покупок">
+      <img src="./img/shopping-cart.svg" alt="корзина" class="cart-icon">
+      <div class="drop" id="drop-point" aria-label="Зона для добавления товаров в корзину"></div>
+      <a href="https://lavka.yandex.ru/" class="hide" id="hidden-button" aria-label="Перейти к оплате корзины"
+        target="_blank" rel="noopener noreferrer">
+        Оплатите корзину
+      </a>
+    </section>
+  </main>
+  <script defer src="./js-banner.js"></script>
+</body>
+
+</html>
