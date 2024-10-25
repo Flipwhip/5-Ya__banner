@@ -182,7 +182,7 @@ body {
 }
 
 .row-top .row-item:nth-child(1) img, .img-milk {
- width: 2.3rem !important;
+ width: 2.3rem;
 }
 
 .row-top .row-item:nth-child(2) img {
@@ -225,16 +225,16 @@ body {
   width: 4.8rem;
 }
 
-.row-bottom .row-item:nth-child(1) imgimg-pineapple {
+.row-bottom .row-item:nth-child(1) img, .img-pineapple {
   right: 0.25rem;
   /* 4px */
-  width: 2.2rem !important;
+  width: 2.2rem;
 }
 
-.row-bottom .row-item:nth-child(2) imgimg-bananas {
+.row-bottom .row-item:nth-child(2) img, .img-bananas {
   right: -0.4375rem;
   /* -7px */
-  width: 2.9rem !important;
+  width: 2.9rem;
 }
 
 .row-bottom .row-item:nth-child(3) img {
@@ -380,19 +380,12 @@ body {
 html {
   font-size: 8px;
 }
-  .img-milk {
- width: 2.3rem !important;
-}
-
 }
 
 /* Мобильные устройства */
 @media screen and (max-width: 480px) {
 html {
   font-size: 6px;
-}
-  .img-milk {
- width: 2.3rem !important;
 }
 }
 
