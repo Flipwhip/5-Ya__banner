@@ -181,7 +181,7 @@ body {
   /* 1px */
 }
 
-.row-top .row-item:nth-child(1) img, .img-milk {
+.row-top .row-item:nth-child(1) imgimg-milk {
  width: 2.3rem !important;
 }
 
@@ -225,13 +225,13 @@ body {
   width: 4.8rem;
 }
 
-.row-bottom .row-item:nth-child(1) img, .img-pineapple {
+.row-bottom .row-item:nth-child(1) imgimg-pineapple {
   right: 0.25rem;
   /* 4px */
   width: 2.2rem !important;
 }
 
-.row-bottom .row-item:nth-child(2) img, .img-bananas {
+.row-bottom .row-item:nth-child(2) imgimg-bananas {
   right: -0.4375rem;
   /* -7px */
   width: 2.9rem !important;
