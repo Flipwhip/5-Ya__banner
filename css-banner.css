@@ -181,14 +181,20 @@ body {
   /* 1px */
 }
 
+.row-top .row-item:nth-child(1) img, .img-milk {
+ width: 2.3rem;
+}
+
 .row-top .row-item:nth-child(2) img {
   left: -0.25rem;
   /* -4px */
+  width: 2.3rem;
 }
 
 .row-top .row-item:nth-child(3) img {
   right: -0.3125rem;
   /* -5px */
+  width: 2.86rem;
 }
 
 .row-top .row-item:nth-child(4) img {
@@ -196,16 +202,19 @@ body {
   /* -2px */
   bottom: -0.0625rem;
   /* -1px */
+  width: 2.3rem;
 }
 
 .row-middle .row-item:nth-child(1) img {
   right: 0.0625rem;
   /* 1px */
+  width: 3.4rem;
 }
 
 .row-middle .row-item:nth-child(2) img {
   right: 0.125rem;
   /* 2px */
+  width: 4.1rem;
 }
 
 .row-middle .row-item:nth-child(3) img {
@@ -213,16 +222,19 @@ body {
   /* -20px */
   top: -0.125rem;
   /* -2px */
+  width: 4.8rem;
 }
 
-.row-bottom .row-item:nth-child(1) img {
+.row-bottom .row-item:nth-child(1) img, .img-pineapple {
   right: 0.25rem;
   /* 4px */
+  width: 2.2rem;
 }
 
-.row-bottom .row-item:nth-child(2) img {
+.row-bottom .row-item:nth-child(2) img, .img-bananas {
   right: -0.4375rem;
   /* -7px */
+  width: 2.9rem;
 }
 
 .row-bottom .row-item:nth-child(3) img {
@@ -230,6 +242,7 @@ body {
   /* 1px */
   bottom: 0.0625rem;
   /* 1px */
+  width: 1.9rem;
 }
 
 .row-bottom .row-item:nth-child(4) img {
@@ -237,6 +250,7 @@ body {
   /* -4px */
   bottom: -0.3125rem;
   /* -5px */
+  width: 3.8rem;
 }
 
 .shopping-cart {
@@ -248,9 +262,9 @@ body {
   overflow: visible;
 }
 
-.shopping-cart img {
+.shopping-cart .cart-icon  {
   position: absolute;
-  width: auto;
+  width: 17.4rem;
   height: auto;
   max-width: none;
   max-height: none;
@@ -350,3 +364,28 @@ body {
     background: #fce000;
   }
 }
+
+/* Планшеты (горизонтальная ориентация) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+  font-size: 12px;
+}
+  }
+
+/* Планшеты (вертикальная ориентация) и большие телефоны */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+html {
+  font-size: 8px;
+}
+
+}
+
+/* Мобильные устройства */
+@media screen and (max-width: 480px) {
+html {
+  font-size: 6px;
+}
+}
+
+
+
